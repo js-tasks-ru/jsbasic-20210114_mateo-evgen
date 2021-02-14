@@ -2,7 +2,6 @@ let calculator = {
   read(a, b) {
     this.a = a;
     this.b = b;
-    console.log(this.a, this.b);
   },
   sum() {
     let result = this.a + this.b;
