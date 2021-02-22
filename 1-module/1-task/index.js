@@ -12,8 +12,7 @@ function factorial(n) {
    for (let i = 0; i < n; i++) {
    n = (n - 1);
    result *= n;
-   
-  }
+    }
   }
   return result;
 }
