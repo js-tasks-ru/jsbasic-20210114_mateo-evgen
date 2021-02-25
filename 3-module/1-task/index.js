@@ -3,5 +3,6 @@
  * @returns {string[]}  объект
  */
 function namify(users) {
-  // ваш код...
+  let onlyNames = users.map(item => item.name);
+  return onlyNames;
 }
